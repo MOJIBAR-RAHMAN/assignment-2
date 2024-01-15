@@ -8,3 +8,24 @@ nav .logo-menu a{
     font-size: 26px;
 
 }
+.banner-section{
+    height: auto;
+}
+.banner-btn{
+    flex-direction: column;
+}
+.banner-btn{
+    padding: none;
+}
+.banner-btn *{
+    margin-bottom: 16px;
+}
+.banner-section .section-heading h1{
+   margin-top: 5px;
+
+}
+.tour-section{
+    display: flex;
+    flex-direction: column;
+    
+    }
