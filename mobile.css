@@ -1,0 +1,10 @@
+nav .logo-menu a{
+    display: none;
+}
+.nav-icon{
+    display: inline;
+}
+.nav-icon .fa-solid{
+    font-size: 26px;
+
+}
