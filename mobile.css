@@ -28,62 +28,62 @@ nav .logo-menu a{
     display: flex;
     flex-direction: column;
     
-    }
+}
 
-    .row1, .row2, .row3{ 
+.row1, .row2, .row3{ 
         flex-direction: column;
        
-    }
-    .item{
+}
+.item{
         width: 100%;
         height: 300px;
         
-    }
-    .card-body{
+ }
+.card-body{
         flex-direction: column;
         
-    }
-    .card{
+ }
+.card{
         width: 100%;
         height: auto;
         margin: 0;
-    }
-    .choose-title{
+}
+.choose-title{
         font-size: 50px;
-    }
-    .card-title {
+}
+.card-title {
         font-size: 50px;
-    }
-    .news-section{
+}
+.news-section{
        flex-direction: column;
-    }
-    form{
+}
+form{
         width: 100%;
         margin-bottom: 50px;
-    }
-    .form-discount{
+}
+.form-discount{
         width: 300px;
         height: 120px;
         transform: rotate(-20.628deg);
-    top: 50%;
-    right: 10px;
-    text-align: center;
-    width: 350px;
-    height: 120px;
-    transform: rotate(-20.628deg);
-    border-radius: 16px;
+        top: 50%;
+        right: 10px;
+        text-align: center;
+        width: 350px;
+        height: 120px;
+        transform: rotate(-20.628deg);
+        border-radius: 16px;
     
-    }
-    .img-div img{
+}
+.img-div img{
         width: 100%;
         height: 100%;
         
-    }
-    .img-div{
+}
+.img-div{
         width: 100%;
      height: 350px;
     }
-    .icon-div{
+.icon-div{
         display: flex;
         position: absolute;
         width: 80%;
@@ -94,32 +94,31 @@ nav .logo-menu a{
         opacity: 0.7;
         column-gap: 20px;
         padding: 20px;
-        /* border-radius: 7px; */
         flex-direction: column;
       
     
-    }
-    .extra-section{
-       background-size: 100% 900px;
+}
+.extra-section{
+    background-size: 100% 900px;
        object-fit: cover;
       
-    }
-    .extra-section h1{
+}
+.extra-section h1{
         
         top: 10%;
         
-    }
+}
 
 
 
-    .discount-img1{
+.discount-img1{
         position: relative;
         display: flex;
         margin-top: 50px;
         height: 400px;
         
-    }
-    .discount-img1 img{
+}
+.discount-img1 img{
         width: 100%;
         object-fit: cover;
     }
@@ -137,9 +136,7 @@ nav .logo-menu a{
     }
 
     .video-container .video{
-        /* width: 100%;
-        height: 500px; */
-        /* margin-top: 100px; */
+        
         width: 100%;
         height: 300px;
         
@@ -147,4 +144,12 @@ nav .logo-menu a{
     }
     .get-lost-section .text-continer h1{
         margin: 0;
+    }
+    .footer-logo h1 {
+        display: inline-block;
+        margin-top: 150px;
+       
+    }
+    .footer-logo img{
+        margin-top: 150px;
     }
