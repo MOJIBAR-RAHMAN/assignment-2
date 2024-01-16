@@ -62,11 +62,10 @@ form{
         margin-bottom: 50px;
 }
 .form-discount{
-        width: 300px;
-        height: 120px;
-        top: 52%;
-        width: 300px;
-        height: 120px;
+        
+        top: 55%;
+        width: 280px;
+        height: 110px;
       
     
 }
@@ -130,10 +129,10 @@ form{
        width: 80%;
        height: 85%;
     }
-    /* .dis-card-btn{
-        margin-left: 50px;
-        position: absolute;
-    } */
+    .dis-card-btn{
+        padding: 0;
+        height: 25px;
+    } 
     .discount-btn{
         left: 25%;
     }
@@ -180,4 +179,13 @@ form{
     }
      .row3 .item-7 h1{
         left: 25%;
+    }
+    .extra-section .icon-div{
+        height: 450px;
+        border-radius: 10px;
+       
+    }
+    .extra-section h1{
+        margin: 0;
+        font-size: 25px;
     }
