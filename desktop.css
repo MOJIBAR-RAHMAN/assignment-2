@@ -320,6 +320,9 @@ background: rgba(233, 68, 68, 0.05);
 }
 
 /* discount stsrt  */
+.discount-section{
+    position: relative;
+}
 .discount-img1{
     position: relative;
     display: flex;
@@ -386,15 +389,21 @@ margin-bottom: 10px;
     border-radius: 16px;
     color: #5A5A5D;
     justify-content: space-evenly;
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-
-
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
 }
-.small-icon h6 span .icon{
-    font-size: px;
+.discount-btn{
+  
+    position: absolute;
+    left: 45%;
+    margin-top: 50px;
+}
+.small-icon .fa-solid{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #FF5400;
 }
 .small-card h6 p{
     color: #5A5A5D;
@@ -408,10 +417,54 @@ line-height: normal;
     color: #5A5A5D;
 
 }
+
+/* .get-lost-section :start  */
+.get-lost-section{
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    
+}
+.get-lost-section .text-continer{
+    /* border: solid; */
+    height: 500px;
+    padding: 20px;
+   
+}
+.get-lost-section .text-continer h1{
+    color: #131318;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 60px; /* 150% */
+}
+.get-lost-section .text-continer li{
+    color: #131318;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; /* 162.5% */
+}
+.get-lost-btn{
+    margin-top: 30px;
+}
+.get-lost-section .video-container{
+    /* border: solid; */
+    text-align: center;
+    
+    
+}
+.video-container .video{
+   
+}
+
+
 .news-section{
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 160px;
     /* border: solid; */
     /* height: 450px; */
 }
@@ -422,8 +475,10 @@ form{
     align-items: center;
     flex-direction: column;
     gap: 16px;
-    width: 50%;
-    height: 100%;
+    width: 40%;
+    height: 500px;
+    border: 1px solid red;
+    border-radius: 5px;
     
 }
 form input{
