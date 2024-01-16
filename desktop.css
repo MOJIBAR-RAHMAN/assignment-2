@@ -361,7 +361,7 @@ border: none;
 
     height: 100%;
     border-radius: 16px;
-background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    /* background: url(<plightgray 50% / cover no-repeat; */
     
 }
 .form-discount{
@@ -403,7 +403,12 @@ line-height: normal;
    justify-content: center;
    margin-top: 150px;
 }
-
+.footer-logo h1 {
+    margin-top: 100px;
+}
+.footer-logo img{
+    margin-top: 100px;
+}
 footer{
     margin-top: 100px;
     background: rgba(19, 19, 24, 0.05);
@@ -431,4 +436,45 @@ margin-top: 20px;
     font-size: 30px;
     margin-bottom: 20px;
     /* background: rgba(19, 19, 24, 0.05); */
+}
+.extra-section{
+    background-image: url("Images/travel2.jpg");
+    width: 100%;
+    margin-top: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    position: relative;
+  
+}
+.extra-section h1{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-size: 50px;
+    color: white;
+}
+
+.icon-div{
+    display: flex;
+    position: absolute;
+    width: 80%;
+    bottom:  0;
+    left: 10%;
+    text-align: center;
+    background-color: #FCEABC;
+    opacity: 0.7;
+    column-gap: 20px;
+    padding: 20px;
+    /* border-radius: 7px; */
+  
+
+}
+.icon-div div .fa-solid{
+    font-size: 40px;
+    
+}
+.icon-div div{
+    
+    border-radius: 7px;
 }

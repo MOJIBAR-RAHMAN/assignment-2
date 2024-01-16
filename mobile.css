@@ -83,3 +83,29 @@ nav .logo-menu a{
         width: 100%;
      height: 350px;
     }
+    .icon-div{
+        display: flex;
+        position: absolute;
+        width: 80%;
+        bottom:  0;
+        left: 10%;
+        text-align: center;
+        background-color: #FCEABC;
+        opacity: 0.7;
+        column-gap: 20px;
+        padding: 20px;
+        /* border-radius: 7px; */
+        flex-direction: column;
+      
+    
+    }
+    .extra-section{
+        background-image: url("Images/travel2.jpg");
+        width: 100%;
+        margin-top: 100px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 700px;
+        position: relative;
+      
+    }
