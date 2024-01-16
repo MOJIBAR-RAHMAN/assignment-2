@@ -64,14 +64,10 @@ form{
 .form-discount{
         width: 300px;
         height: 120px;
-        transform: rotate(-20.628deg);
-        top: 50%;
-        right: 10px;
-        text-align: center;
-        width: 350px;
+        top: 52%;
+        width: 300px;
         height: 120px;
-        transform: rotate(-20.628deg);
-        border-radius: 16px;
+      
     
 }
 .img-div img{
@@ -118,6 +114,11 @@ form{
         height: 400px;
         
 }
+.small-icon .fa-solid{
+    font-size: 10px;
+    margin-right: 5px;
+    color: #FF5400;
+}
 .discount-img1 img{
         width: 100%;
         object-fit: cover;
@@ -127,9 +128,15 @@ form{
        top: 10%;
        left: 10%;
        width: 80%;
-       height: 80%;
+       height: 85%;
     }
-
+    /* .dis-card-btn{
+        margin-left: 50px;
+        position: absolute;
+    } */
+    .discount-btn{
+        left: 25%;
+    }
     .get-lost-section{
         flex-direction: column;
         
@@ -156,3 +163,21 @@ form{
     .tour-text-container{
         width: 100%;
      }
+     .video-container .video{
+        margin-top: 180px;
+     }
+     .row1 .item-2 h1{
+        left: 30%;
+    }
+    .row1 .item-1 h1{
+        left: 30%;
+    }
+     .row2 .item-4 h1{
+        left: 20%;
+    }
+     .row3 .item-6 h1{
+        left: 25%;
+    }
+     .row3 .item-7 h1{
+        left: 25%;
+    }

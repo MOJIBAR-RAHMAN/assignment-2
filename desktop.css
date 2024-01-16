@@ -218,6 +218,7 @@ option{
     position: relative;
     
 }
+
 .item h1{
     color: #FFF;
     position: absolute;
@@ -251,6 +252,7 @@ option{
 }
 .card{
     width: 50%;
+    padding: 10px;
 }
 .card h1{
     color: #131318;
@@ -311,6 +313,10 @@ option{
     left: 60%;
     padding: 30px;
 }
+/* .dis-card-btn{
+    position: absolute;
+    left: 100%;
+} */
 .middle-card{
     position: absolute;
     border: solid;
@@ -405,7 +411,7 @@ option{
     
 }
 .video-container .video{
-   
+
 }
 
 
@@ -425,6 +431,7 @@ form{
     height: 500px;
     border: 1px solid red;
     border-radius: 5px;
+    padding: 10px;
     
 }
 form input{
@@ -461,7 +468,7 @@ form input{
     border-radius: 16px;
     background: #FF5400;
     position: absolute;
-    top: 58%;
+    top: 62%;
     right: 20px;
     text-align: center;
 
