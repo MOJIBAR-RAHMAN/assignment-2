@@ -100,12 +100,33 @@ nav .logo-menu a{
     
     }
     .extra-section{
-        background-image: url("Images/travel2.jpg");
-        width: 100%;
-        margin-top: 100px;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 700px;
-        position: relative;
+       background-size: 100% 900px;
+       object-fit: cover;
       
+    }
+    .extra-section h1{
+        
+        top: 10%;
+        
+    }
+
+
+
+    .discount-img1{
+        position: relative;
+        display: flex;
+        margin-top: 50px;
+        height: 400px;
+        
+    }
+    .discount-img1 img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .dis-card{
+       top: 10%;
+       left: 10%;
+       width: 80%;
+       height: 80%;
     }

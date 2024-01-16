@@ -18,9 +18,14 @@ body{
     /* min-width: 992px; */
     min-height: 80px;
     margin: 0 auto;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
-
+.logo-cotaineer .imp {
+    color: #FF5400;
+}
+.logo-menu .imp{
+    color: #FF5400;
+}
 /* headder starts */
 header{
     margin-top: 50px;
@@ -313,6 +318,96 @@ border: 1px solid rgba(233, 68, 68, 0.20);
 background: rgba(233, 68, 68, 0.05);
 
 }
+
+/* discount stsrt  */
+.discount-img1{
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+}
+.discount-img1 img{
+    width: 100%;
+}
+.dis-card{
+    position: absolute;
+    border: solid;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 30%;
+    height: 60%;
+    top: 20%;
+    left: 60%;
+    padding: 30px;
+}
+.middle-card{
+    position: absolute;
+    border: solid;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 30%;
+    height: 60%;
+    top: 20%;
+    left: 10%;
+    padding: 30px;
+}
+.dis-title{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 10px;
+}
+.dis-card p{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 162.5% */
+margin: 20px 0;
+}
+.des-price{
+    color: #FF5400;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 10px;
+}
+.small-icon{
+    display: flex;
+    border-radius: 16px;
+    color: #5A5A5D;
+    justify-content: space-evenly;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+
+
+}
+.small-icon h6 span .icon{
+    font-size: px;
+}
+.small-card h6 p{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.small-card h3 p{
+    color: #5A5A5D;
+
+}
 .news-section{
     display: flex;
     justify-content: space-between;
@@ -401,13 +496,13 @@ line-height: normal;
 .footer-logo{
     display: flex;
    justify-content: center;
-   margin-top: 150px;
+   margin-top: 80px;
 }
 .footer-logo h1 {
-    margin-top: 100px;
+    margin-top: 30px;
 }
 .footer-logo img{
-    margin-top: 100px;
+    margin-top: 30px;
 }
 footer{
     margin-top: 100px;
@@ -445,7 +540,6 @@ margin-top: 20px;
     background-repeat: no-repeat;
     height: 700px;
     position: relative;
-  
 }
 .extra-section h1{
     position: absolute;
@@ -472,6 +566,7 @@ margin-top: 20px;
 }
 .icon-div div .fa-solid{
     font-size: 40px;
+    color: red;
     
 }
 .icon-div div{
